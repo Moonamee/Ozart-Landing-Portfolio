@@ -867,6 +867,7 @@
         display: flex;
         margin-right: 0;
         width: 100%;
+        justify-content: center;
     }
     .clnt_test_text {
         font-style: normal;

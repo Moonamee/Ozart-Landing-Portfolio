@@ -921,6 +921,7 @@
     .proj-title-text {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
     .getintouch-title span {
         font-size: 32px;

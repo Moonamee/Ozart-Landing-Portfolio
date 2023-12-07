@@ -27,9 +27,11 @@
                 <a href="index.html">
                     <img src="images/logo.svg" alt="Logo">
                 </a>
-                <a href="#">
-                    <img class="search_img" src="images/search.svg" alt="Search">
-                </a>
+                <div class="search_container">
+                    <img class="search_img" src="images/search.svg" alt="Search" onclick="toggleSearchInput()">
+                    <input class="search_input" type="text" placeholder="Search">
+                </div>            
+                
                 <nav class="nav-menu">
                     <span class="mnu_padd">Menu</span>
                     <div class="btn-burger">
@@ -119,7 +121,7 @@
                         <div class="swiper-slide">
                             <div class="card_2">
                                 <h1>Graphic Design</h1>
-                                <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, illum. Esse quas rerum repellendus reprehenderit voluptatibus cumque, laboriosam consequuntur nam corrupti atque. Eaque magnam soluta tempora adipisci perspiciatis ipsa dignissimos!</h2>
+                                <h2>User interface design, user experience design, user research.</h2>
                                 <div class="adjust-2">
                                     <span><a href="#">Read more</a></span>
                                     <span class="arrow_bold"><a href="#">&rarr;</a></span>
@@ -415,19 +417,21 @@
                 <div class="footer-copy-box">
                     <div class="footer-copy-text-1">
                         <span>
-                            &copy; 2022 Ozart Portfolio Template by Maksym Ivashchenko
+                            &copy; 2022 Ozart Portfolio Template by
                         </span>
-                        <div class="footer-social-box">
-                            ​<picture class="pic_gap">
+                        <a target="_blank" href="https://github.com/Moonamee">Maksym Ivashchenko</a>
+                        <div class="footer-socialbox">
+                            ​<div class="pic_gap">
                                 <a href="#"><img width="20px" height="33px" src="images/ico/facebook 1.svg" alt="Facebook"></a>
                                 <a href="#"><img width="20px" height="33px" src="images/ico/linkedin 1.svg" alt="LinkedIn"></a>
                                 <a href="#"><img width="20px" height="33px" src="images/ico/behance 1.svg" alt="Behance"></a>
                                 <a href="#"><img width="20px" height="33px" src="images/ico/twitter 1.svg" alt="Twitter"></a>
                                 <a href="#"><img width="20px" height="33px" src="images/ico/dribbble 1.svg" alt="Dribbble"></a>
-                            </picture>
+                            </div>
                         </div>
                     </div>
                 </div>
+               
             </div>
         </footer>
     </div>

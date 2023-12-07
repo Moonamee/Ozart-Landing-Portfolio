@@ -560,7 +560,7 @@
     }
     .search_img.clicked + .search_input {
         top: 50px;
-        left: -50vw;
+        left: -52vw;
         display: block;
         opacity: 1;
     }

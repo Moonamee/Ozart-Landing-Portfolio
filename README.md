@@ -60,7 +60,7 @@ to the template author. Designer's Social Media.
 Code that performs various actions on a web
 page. Here is its explanation:
 
-1. "$(".popup").css("display", "none");" - Sets
+1. "$(".popup").css ("display", "none");" - Sets
 the initial value of the CSS "display" property
 for an element with class "popup" as "none",
 which hides it initially.

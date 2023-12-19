@@ -60,8 +60,8 @@ to the template author. Designer's Social Media.
 Code that performs various actions on a web
 page. Here is its explanation:
 
-1. `$(".popup").css("display", "none");` - Sets
-the initial value of the CSS `display` property
+1. "$(".popup").css("display", "none");" - Sets
+the initial value of the CSS "display" property
 for an element with class "popup" as "none",
 which hides it initially.
 
@@ -76,8 +76,8 @@ portfolio gallery: Adds an image click handler
 inside an element with class
 "portfolio-gallery-box". When clicking on an
 image, gets its source path and sets it to the
-`src` attribute of the image inside the element
-with class "popup". Then, using the `fadeIn()`
+"src" attribute of the image inside the element
+with class "popup". Then, using the "fadeIn()"
 method, smoothly displays the element with the
 class "popup".
 
@@ -85,7 +85,7 @@ class "popup".
 the popup: $(".close").click(function () {
 $(".popup").fadeOut(); }); Adds a click handler
 to an element with class "close". When the close
-button is clicked, using the `fadeOut()` method,
+button is clicked, using the "fadeOut()" method,
 smoothly hides the element with class "popup".
 
 5. Handler for clicking on the area around the
@@ -93,14 +93,14 @@ popup to close: $(".popup-wrap").click(function
 () { $(".popup").fadeOut(); }); Adds a click
 handler to an element with the class
 "popup-wrap". When clicking on the area around
-the popup, using the `fadeOut()` method,
+the popup, using the "fadeOut()" method,
 smoothly hides the element with class "popup".
 
-6. Function `toggleSearchInput()` to toggle the
+6. Function "toggleSearchInput()" to toggle the
 display of the search field: Gets references to
 elements with the classes "search_input" and
 "search_img". When the function is called,
-checks the current value of the CSS `display`
+checks the current value of the CSS "display"
 property for the search field. If it is equal to
 "block", it hides the search field and removes
 the "clicked" class from the element with the
